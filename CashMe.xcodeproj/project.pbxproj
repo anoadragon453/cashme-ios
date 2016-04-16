@@ -14,6 +14,7 @@
 		D244E8191CC2F4F1002E5375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D244E8171CC2F4F1002E5375 /* LaunchScreen.storyboard */; };
 		D244E8241CC2F4F1002E5375 /* CashMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E8231CC2F4F1002E5375 /* CashMeTests.swift */; };
 		D244E82F1CC2F4F1002E5375 /* CashMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E82E1CC2F4F1002E5375 /* CashMeUITests.swift */; };
+		D2BFF3051CC302FC0025F1D6 /* Pods in Resources */ = {isa = PBXBuildFile; fileRef = D2BFF3041CC302FC0025F1D6 /* Pods */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03716D8FF0CFAD50752DB83A /* Pods_CashMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CashMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		460255133ACFC74B3976E95F /* Pods-CashMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-CashMe/Pods-CashMe.release.xcconfig"; sourceTree = "<group>"; };
+		7134E31BEB80E9715DF4F8CA /* Pods-CashMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CashMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CashMe/Pods-CashMe.debug.xcconfig"; sourceTree = "<group>"; };
 		D244E80B1CC2F4F1002E5375 /* CashMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D244E80E1CC2F4F1002E5375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D244E8101CC2F4F1002E5375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		D244E82A1CC2F4F1002E5375 /* CashMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D244E82E1CC2F4F1002E5375 /* CashMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashMeUITests.swift; sourceTree = "<group>"; };
 		D244E8301CC2F4F1002E5375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2BFF3041CC302FC0025F1D6 /* Pods */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pods; sourceTree = "<group>"; };
+		D2BFF3081CC304EB0025F1D6 /* DrawerController */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DrawerController; path = Pods/DrawerController/DrawerController; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20561DBEE679A880491734E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7134E31BEB80E9715DF4F8CA /* Pods-CashMe.debug.xcconfig */,
+				460255133ACFC74B3976E95F /* Pods-CashMe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28583299051E3D4D39D54CC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2BFF3081CC304EB0025F1D6 /* DrawerController */,
+				03716D8FF0CFAD50752DB83A /* Pods_CashMe.framework */,
+				D2BFF3041CC302FC0025F1D6 /* Pods */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D244E8021CC2F4F1002E5375 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +106,8 @@
 				D244E8221CC2F4F1002E5375 /* CashMeTests */,
 				D244E82D1CC2F4F1002E5375 /* CashMeUITests */,
 				D244E80C1CC2F4F1002E5375 /* Products */,
+				20561DBEE679A880491734E7 /* Pods */,
+				28583299051E3D4D39D54CC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D244E8331CC2F4F1002E5375 /* Build configuration list for PBXNativeTarget "CashMe" */;
 			buildPhases = (
+				83E91DF7E22507022E072E06 /* Check Pods Manifest.lock */,
 				D244E8071CC2F4F1002E5375 /* Sources */,
 				D244E8081CC2F4F1002E5375 /* Frameworks */,
 				D244E8091CC2F4F1002E5375 /* Resources */,
+				7A9E80A708A29E5C0C0946D9 /* Embed Pods Frameworks */,
+				E7AB6D1ABDB0B549D3069BDF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +264,7 @@
 			files = (
 				D244E8191CC2F4F1002E5375 /* LaunchScreen.storyboard in Resources */,
 				D244E8161CC2F4F1002E5375 /* Assets.xcassets in Resources */,
+				D2BFF3051CC302FC0025F1D6 /* Pods in Resources */,
 				D244E8141CC2F4F1002E5375 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +284,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7A9E80A708A29E5C0C0946D9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CashMe/Pods-CashMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83E91DF7E22507022E072E06 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7AB6D1ABDB0B549D3069BDF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CashMe/Pods-CashMe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D244E8071CC2F4F1002E5375 /* Sources */ = {
@@ -400,6 +479,7 @@
 		};
 		D244E8341CC2F4F1002E5375 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7134E31BEB80E9715DF4F8CA /* Pods-CashMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CashMe/Info.plist;
@@ -411,6 +491,7 @@
 		};
 		D244E8351CC2F4F1002E5375 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 460255133ACFC74B3976E95F /* Pods-CashMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CashMe/Info.plist;
@@ -485,6 +566,7 @@
 				D244E8351CC2F4F1002E5375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D244E8361CC2F4F1002E5375 /* Build configuration list for PBXNativeTarget "CashMeTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +575,7 @@
 				D244E8381CC2F4F1002E5375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D244E8391CC2F4F1002E5375 /* Build configuration list for PBXNativeTarget "CashMeUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +584,7 @@
 				D244E83B1CC2F4F1002E5375 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
