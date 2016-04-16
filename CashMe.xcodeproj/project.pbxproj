@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D244E80F1CC2F4F1002E5375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E80E1CC2F4F1002E5375 /* AppDelegate.swift */; };
+		D244E8111CC2F4F1002E5375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E8101CC2F4F1002E5375 /* ViewController.swift */; };
+		D244E8141CC2F4F1002E5375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D244E8121CC2F4F1002E5375 /* Main.storyboard */; };
+		D244E8161CC2F4F1002E5375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D244E8151CC2F4F1002E5375 /* Assets.xcassets */; };
+		D244E8191CC2F4F1002E5375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D244E8171CC2F4F1002E5375 /* LaunchScreen.storyboard */; };
+		D244E8241CC2F4F1002E5375 /* CashMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E8231CC2F4F1002E5375 /* CashMeTests.swift */; };
+		D244E82F1CC2F4F1002E5375 /* CashMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E82E1CC2F4F1002E5375 /* CashMeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D244E8201CC2F4F1002E5375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D244E8031CC2F4F1002E5375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D244E80A1CC2F4F1002E5375;
+			remoteInfo = CashMe;
+		};
+		D244E82B1CC2F4F1002E5375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D244E8031CC2F4F1002E5375 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D244E80A1CC2F4F1002E5375;
+			remoteInfo = CashMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D244E80B1CC2F4F1002E5375 /* CashMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D244E80E1CC2F4F1002E5375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D244E8101CC2F4F1002E5375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D244E8131CC2F4F1002E5375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D244E8151CC2F4F1002E5375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D244E8181CC2F4F1002E5375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D244E81A1CC2F4F1002E5375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D244E81F1CC2F4F1002E5375 /* CashMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D244E8231CC2F4F1002E5375 /* CashMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashMeTests.swift; sourceTree = "<group>"; };
+		D244E8251CC2F4F1002E5375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D244E82A1CC2F4F1002E5375 /* CashMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D244E82E1CC2F4F1002E5375 /* CashMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashMeUITests.swift; sourceTree = "<group>"; };
+		D244E8301CC2F4F1002E5375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D244E8081CC2F4F1002E5375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D244E81C1CC2F4F1002E5375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D244E8271CC2F4F1002E5375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D244E8021CC2F4F1002E5375 = {
+			isa = PBXGroup;
+			children = (
+				D244E80D1CC2F4F1002E5375 /* CashMe */,
+				D244E8221CC2F4F1002E5375 /* CashMeTests */,
+				D244E82D1CC2F4F1002E5375 /* CashMeUITests */,
+				D244E80C1CC2F4F1002E5375 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D244E80C1CC2F4F1002E5375 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D244E80B1CC2F4F1002E5375 /* CashMe.app */,
+				D244E81F1CC2F4F1002E5375 /* CashMeTests.xctest */,
+				D244E82A1CC2F4F1002E5375 /* CashMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D244E80D1CC2F4F1002E5375 /* CashMe */ = {
+			isa = PBXGroup;
+			children = (
+				D244E80E1CC2F4F1002E5375 /* AppDelegate.swift */,
+				D244E8101CC2F4F1002E5375 /* ViewController.swift */,
+				D244E8121CC2F4F1002E5375 /* Main.storyboard */,
+				D244E8151CC2F4F1002E5375 /* Assets.xcassets */,
+				D244E8171CC2F4F1002E5375 /* LaunchScreen.storyboard */,
+				D244E81A1CC2F4F1002E5375 /* Info.plist */,
+			);
+			path = CashMe;
+			sourceTree = "<group>";
+		};
+		D244E8221CC2F4F1002E5375 /* CashMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D244E8231CC2F4F1002E5375 /* CashMeTests.swift */,
+				D244E8251CC2F4F1002E5375 /* Info.plist */,
+			);
+			path = CashMeTests;
+			sourceTree = "<group>";
+		};
+		D244E82D1CC2F4F1002E5375 /* CashMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D244E82E1CC2F4F1002E5375 /* CashMeUITests.swift */,
+				D244E8301CC2F4F1002E5375 /* Info.plist */,
+			);
+			path = CashMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D244E80A1CC2F4F1002E5375 /* CashMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D244E8331CC2F4F1002E5375 /* Build configuration list for PBXNativeTarget "CashMe" */;
+			buildPhases = (
+				D244E8071CC2F4F1002E5375 /* Sources */,
+				D244E8081CC2F4F1002E5375 /* Frameworks */,
+				D244E8091CC2F4F1002E5375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashMe;
+			productName = CashMe;
+			productReference = D244E80B1CC2F4F1002E5375 /* CashMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D244E81E1CC2F4F1002E5375 /* CashMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D244E8361CC2F4F1002E5375 /* Build configuration list for PBXNativeTarget "CashMeTests" */;
+			buildPhases = (
+				D244E81B1CC2F4F1002E5375 /* Sources */,
+				D244E81C1CC2F4F1002E5375 /* Frameworks */,
+				D244E81D1CC2F4F1002E5375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D244E8211CC2F4F1002E5375 /* PBXTargetDependency */,
+			);
+			name = CashMeTests;
+			productName = CashMeTests;
+			productReference = D244E81F1CC2F4F1002E5375 /* CashMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D244E8291CC2F4F1002E5375 /* CashMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D244E8391CC2F4F1002E5375 /* Build configuration list for PBXNativeTarget "CashMeUITests" */;
+			buildPhases = (
+				D244E8261CC2F4F1002E5375 /* Sources */,
+				D244E8271CC2F4F1002E5375 /* Frameworks */,
+				D244E8281CC2F4F1002E5375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D244E82C1CC2F4F1002E5375 /* PBXTargetDependency */,
+			);
+			name = CashMeUITests;
+			productName = CashMeUITests;
+			productReference = D244E82A1CC2F4F1002E5375 /* CashMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D244E8031CC2F4F1002E5375 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kashmor;
+				TargetAttributes = {
+					D244E80A1CC2F4F1002E5375 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = G3XV92BZ98;
+					};
+					D244E81E1CC2F4F1002E5375 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = G3XV92BZ98;
+						TestTargetID = D244E80A1CC2F4F1002E5375;
+					};
+					D244E8291CC2F4F1002E5375 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = G3XV92BZ98;
+						TestTargetID = D244E80A1CC2F4F1002E5375;
+					};
+				};
+			};
+			buildConfigurationList = D244E8061CC2F4F1002E5375 /* Build configuration list for PBXProject "CashMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D244E8021CC2F4F1002E5375;
+			productRefGroup = D244E80C1CC2F4F1002E5375 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D244E80A1CC2F4F1002E5375 /* CashMe */,
+				D244E81E1CC2F4F1002E5375 /* CashMeTests */,
+				D244E8291CC2F4F1002E5375 /* CashMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D244E8091CC2F4F1002E5375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D244E8191CC2F4F1002E5375 /* LaunchScreen.storyboard in Resources */,
+				D244E8161CC2F4F1002E5375 /* Assets.xcassets in Resources */,
+				D244E8141CC2F4F1002E5375 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D244E81D1CC2F4F1002E5375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D244E8281CC2F4F1002E5375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D244E8071CC2F4F1002E5375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D244E8111CC2F4F1002E5375 /* ViewController.swift in Sources */,
+				D244E80F1CC2F4F1002E5375 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D244E81B1CC2F4F1002E5375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D244E8241CC2F4F1002E5375 /* CashMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D244E8261CC2F4F1002E5375 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D244E82F1CC2F4F1002E5375 /* CashMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D244E8211CC2F4F1002E5375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D244E80A1CC2F4F1002E5375 /* CashMe */;
+			targetProxy = D244E8201CC2F4F1002E5375 /* PBXContainerItemProxy */;
+		};
+		D244E82C1CC2F4F1002E5375 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D244E80A1CC2F4F1002E5375 /* CashMe */;
+			targetProxy = D244E82B1CC2F4F1002E5375 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D244E8121CC2F4F1002E5375 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D244E8131CC2F4F1002E5375 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D244E8171CC2F4F1002E5375 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D244E8181CC2F4F1002E5375 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D244E8311CC2F4F1002E5375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D244E8321CC2F4F1002E5375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D244E8341CC2F4F1002E5375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CashMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kashmor.com.CashMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D244E8351CC2F4F1002E5375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CashMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kashmor.com.CashMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D244E8371CC2F4F1002E5375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CashMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kashmor.com.CashMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashMe.app/CashMe";
+			};
+			name = Debug;
+		};
+		D244E8381CC2F4F1002E5375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CashMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kashmor.com.CashMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashMe.app/CashMe";
+			};
+			name = Release;
+		};
+		D244E83A1CC2F4F1002E5375 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CashMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kashmor.com.CashMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CashMe;
+			};
+			name = Debug;
+		};
+		D244E83B1CC2F4F1002E5375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CashMeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kashmor.com.CashMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CashMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D244E8061CC2F4F1002E5375 /* Build configuration list for PBXProject "CashMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D244E8311CC2F4F1002E5375 /* Debug */,
+				D244E8321CC2F4F1002E5375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D244E8331CC2F4F1002E5375 /* Build configuration list for PBXNativeTarget "CashMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D244E8341CC2F4F1002E5375 /* Debug */,
+				D244E8351CC2F4F1002E5375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D244E8361CC2F4F1002E5375 /* Build configuration list for PBXNativeTarget "CashMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D244E8371CC2F4F1002E5375 /* Debug */,
+				D244E8381CC2F4F1002E5375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D244E8391CC2F4F1002E5375 /* Build configuration list for PBXNativeTarget "CashMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D244E83A1CC2F4F1002E5375 /* Debug */,
+				D244E83B1CC2F4F1002E5375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D244E8031CC2F4F1002E5375 /* Project object */;
+}
