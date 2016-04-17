@@ -15,6 +15,10 @@
 		D244E8241CC2F4F1002E5375 /* CashMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E8231CC2F4F1002E5375 /* CashMeTests.swift */; };
 		D244E82F1CC2F4F1002E5375 /* CashMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D244E82E1CC2F4F1002E5375 /* CashMeUITests.swift */; };
 		D26693841CC307480000F5C5 /* DrawerController in Resources */ = {isa = PBXBuildFile; fileRef = D26693831CC307480000F5C5 /* DrawerController */; };
+		D26693861CC307AA0000F5C5 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26693851CC307AA0000F5C5 /* RequestsViewController.swift */; };
+		D26693871CC309D30000F5C5 /* DrawerController in Sources */ = {isa = PBXBuildFile; fileRef = D26693831CC307480000F5C5 /* DrawerController */; };
+		D2D731C01CC30F8C001F2180 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D731BF1CC30F8C001F2180 /* SWRevealViewController.m */; };
+		D2D731C41CC31203001F2180 /* Menu-100.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D731C31CC31203001F2180 /* Menu-100.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +52,12 @@
 		D244E82A1CC2F4F1002E5375 /* CashMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D244E82E1CC2F4F1002E5375 /* CashMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashMeUITests.swift; sourceTree = "<group>"; };
 		D244E8301CC2F4F1002E5375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D26693831CC307480000F5C5 /* DrawerController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DrawerController; sourceTree = "<group>"; };
+		D26693831CC307480000F5C5 /* DrawerController */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DrawerController; path = /Users/adrianmcclure/Xcode/CashMe/DrawerController; sourceTree = "<absolute>"; };
+		D26693851CC307AA0000F5C5 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		D2D731BD1CC30F8C001F2180 /* CashMe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CashMe-Bridging-Header.h"; sourceTree = "<group>"; };
+		D2D731BE1CC30F8C001F2180 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		D2D731BF1CC30F8C001F2180 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		D2D731C31CC31203001F2180 /* Menu-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-100.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,22 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28583299051E3D4D39D54CC1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D26693831CC307480000F5C5 /* DrawerController */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D244E8021CC2F4F1002E5375 = {
 			isa = PBXGroup;
 			children = (
 				D244E80D1CC2F4F1002E5375 /* CashMe */,
 				D244E8221CC2F4F1002E5375 /* CashMeTests */,
 				D244E82D1CC2F4F1002E5375 /* CashMeUITests */,
+				D2D731C11CC30FC0001F2180 /* Frameworks */,
 				D244E80C1CC2F4F1002E5375 /* Products */,
-				28583299051E3D4D39D54CC1 /* Frameworks */,
+				D2D731C31CC31203001F2180 /* Menu-100.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,12 +110,13 @@
 		D244E80D1CC2F4F1002E5375 /* CashMe */ = {
 			isa = PBXGroup;
 			children = (
+				D26693851CC307AA0000F5C5 /* RequestsViewController.swift */,
 				D244E80E1CC2F4F1002E5375 /* AppDelegate.swift */,
+				D2D731C21CC30FD2001F2180 /* SWRevealController */,
 				D244E8101CC2F4F1002E5375 /* ViewController.swift */,
-				D244E8121CC2F4F1002E5375 /* Main.storyboard */,
 				D244E8151CC2F4F1002E5375 /* Assets.xcassets */,
+				D244E8121CC2F4F1002E5375 /* Main.storyboard */,
 				D244E8171CC2F4F1002E5375 /* LaunchScreen.storyboard */,
-				D244E81A1CC2F4F1002E5375 /* Info.plist */,
 			);
 			path = CashMe;
 			sourceTree = "<group>";
@@ -134,6 +137,25 @@
 				D244E8301CC2F4F1002E5375 /* Info.plist */,
 			);
 			path = CashMeUITests;
+			sourceTree = "<group>";
+		};
+		D2D731C11CC30FC0001F2180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			path = CashMe;
+			sourceTree = "<group>";
+		};
+		D2D731C21CC30FD2001F2180 /* SWRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				D244E81A1CC2F4F1002E5375 /* Info.plist */,
+				D2D731BD1CC30F8C001F2180 /* CashMe-Bridging-Header.h */,
+				D2D731BE1CC30F8C001F2180 /* SWRevealViewController.h */,
+				D2D731BF1CC30F8C001F2180 /* SWRevealViewController.m */,
+			);
+			name = SWRevealController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +268,7 @@
 				D244E8191CC2F4F1002E5375 /* LaunchScreen.storyboard in Resources */,
 				D26693841CC307480000F5C5 /* DrawerController in Resources */,
 				D244E8161CC2F4F1002E5375 /* Assets.xcassets in Resources */,
+				D2D731C41CC31203001F2180 /* Menu-100.png in Resources */,
 				D244E8141CC2F4F1002E5375 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26693871CC309D30000F5C5 /* DrawerController in Sources */,
 				D244E8111CC2F4F1002E5375 /* ViewController.swift in Sources */,
+				D2D731C01CC30F8C001F2180 /* SWRevealViewController.m in Sources */,
+				D26693861CC307AA0000F5C5 /* RequestsViewController.swift in Sources */,
 				D244E80F1CC2F4F1002E5375 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,7 +373,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -414,10 +440,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CashMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kashmor.com.CashMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CashMe/CashMe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -425,10 +454,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CashMe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kashmor.com.CashMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CashMe/CashMe-Bridging-Header.h";
 			};
 			name = Release;
 		};
